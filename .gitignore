@@ -1,0 +1,25 @@
+# ── Build artifacts ──────────────────────────
+*.json
+*.spef
+
+# ── Intermediate DEFs (regenerable) ─────────
+outputs/placed.def
+outputs/detailed_placement.def
+outputs/cts.def
+outputs/cts_fixed.def
+
+# ── PDK / Tool binaries ────────────────────
+NanGate*/
+sky130*/
+yosys/
+verilator/
+abc/
+swig*/
+bambu*
+*.tar.gz
+*.AppImage
+
+# ── OS / Editor ────────────────────────────
+.DS_Store
+*.swp
+*~
